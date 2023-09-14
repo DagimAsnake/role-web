@@ -27,14 +27,14 @@ const Navbar = () => {
     return (
       <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-8 bg-gray-900 text-white z-10">
         {/* Logo */}
-        <div>
+        <div className='ml-10'>
           <Link href="/">
             <p className="text-4xl font-bold">RoleTech & Consulting</p>
           </Link>
         </div>
   
         {/* Links */}
-        <ul className="flex space-x-4 mr-10">
+        <ul className="flex space-x-10 mr-10">
           {navLinks.map((nav) => {
             return (
               <li key={nav.id}>
