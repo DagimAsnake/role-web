@@ -5,7 +5,7 @@ const HomeThree = () => {
         <div className="flex flex-col justify-center h-screen text-center">
             <h1 className="text-6xl font-bold">Want to start a new project with us? Let’s Start!</h1>
             <p className="text-3xl mt-6 px-40">
-                At our software development company, we create digital solutions for international corporations, small businesses and other organisations with an aim to open up new possibilities for expansion, process automatization, and continuous improvement. We are a team of experienced developers, creators, designers and project managers you can rely on.
+                At our Tech & Consulting company, we create digital solutions for international corporations, small businesses and other organisations with an aim to open up new possibilities for expansion, process automatization, and continuous improvement. We are a team of experienced developers, creators, designers and project managers you can rely on.
             </p>
             <div className="grid grid-cols-3 gap-4 mt-10">
                 <div className="flex flex-col items-center bg-gray-200 rounded-lg p-8 py-36 mt-8 hover:bg-gray-300 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
