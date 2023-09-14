@@ -25,7 +25,7 @@ const navLinks = [
 
 const Navbar = () => {
     return (
-      <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-8 bg-gray-900 text-white">
+      <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-8 bg-gray-900 text-white z-10">
         {/* Logo */}
         <div>
           <Link href="/">

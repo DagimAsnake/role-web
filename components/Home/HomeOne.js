@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const HomeOne = () => {
     return (
-        <div className="flex justify-around items-center">
+        <div className="flex justify-around h-screen items-center">
             <div
                 className="mr-8 py-80 pl-40"
                 style={{
