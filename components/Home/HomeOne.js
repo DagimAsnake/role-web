@@ -19,7 +19,7 @@ const HomeOne = () => {
                     Welcome to RoleTech & Consulting
                 </h1>
                 <Link href={'/contact'}>
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-4 mt-6 rounded-full">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-3xl text-white font-semibold px-8 py-4 mt-20 rounded-full">
                         Contact Us
                     </button>
                 </Link>
