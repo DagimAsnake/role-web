@@ -41,7 +41,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="ml-10">
         <Link href="/">
-          <p className="text-4xl font-bold">RoleTech & Consulting</p>
+          <p className="text-2xl md:text-4xl font-bold">RoleTech & Consulting</p>
         </Link>
       </div>
 
