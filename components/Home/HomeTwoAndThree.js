@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const HomeTwoAndThree = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center mb-32"
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center mb-16 md:mb-32"
             style={{
                 backgroundImage: 'url(/images/bg-2.png)',
                 backgroundSize: 'cover',
@@ -10,7 +10,7 @@ const HomeTwoAndThree = () => {
                 flex: '1',
             }}
         >
-            <div className="mr-8 pl-8 md:pl-40">
+            <div className="mr-8 pl-8 md:pl-40 text-center">
                 <h3 className="text-3xl sm:text-6xl font-bold mt-4 text-gradient">
                     WE TURN YOUR IDEAS INTO TRENDY DESIGNS.
                 </h3>

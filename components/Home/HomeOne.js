@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const HomeOne = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 items-center mb-16 md:mb-32">
       <div
         className="mr-4 md:mr-8 py-20 md:py-40 pl-4 md:pl-40 bg-cover bg-center flex-1"
         style={{

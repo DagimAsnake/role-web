@@ -2,9 +2,9 @@ import React from 'react';
 
 const HomeTwo = () => {
     return (
-        <div className="flex flex-col justify-center text-center">
-            <h1 className="text-6xl font-bold">Our Solutions</h1>
-            <p className="text-3xl mt-6">
+        <div className="flex flex-col justify-center text-center mb-16 md:mb-32">
+            <h1 className="text-3xl md:text-6xl font-bold">Our Solutions</h1>
+            <p className="text-lg md:text-3xl mt-6">
                 Supercharge your business through remote talent specialized in the following services:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
