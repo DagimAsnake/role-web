@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const HomeTwoAndThree = () => {
     return (
-        <div className="grid grid-cols-2 gap-2 h-screen items-center mb-32"
+        <div className="grid grid-cols-2 gap-2 items-center mb-32"
             style={{
                 backgroundImage: 'url(/images/bg-2.png)',
                 backgroundSize: 'cover',

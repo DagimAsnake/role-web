@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeFour = () => {
     return (
-        <div className="flex flex-col justify-center h-screen text-center">
+        <div className="flex flex-col justify-center text-center">
             <h1 className="text-6xl font-bold">OUR VALUES</h1>
             <p className="text-3xl mt-6 px-40">
                 At RoleTech & Consulting, our workflow inhibits transparency in its core. We deeply value the relation we form with our clients and believe that clear communication, in every stage of the development process, is key for a successful partnership. Hence making sure that the output of our work is aligned with the desired solution.

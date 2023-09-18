@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeTwo = () => {
     return (
-        <div className="flex flex-col justify-center h-screen text-center">
+        <div className="flex flex-col justify-center text-center">
             <h1 className="text-6xl font-bold">Our Solutions</h1>
             <p className="text-3xl mt-6">
                 Supercharge your business through remote talent specialized in the following services:
