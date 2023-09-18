@@ -37,11 +37,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-8 bg-gray-900 text-white z-10">
+    <nav className="fixed top-0 left-0 right-0 flex items-center justify-between p-4 md:p-8 bg-gray-900 text-white z-10">
       {/* Logo */}
-      <div className="ml-10">
+      <div className="md:ml-10">
         <Link href="/">
-          <p className="text-2xl md:text-4xl font-bold">RoleTech & Consulting</p>
+          <p className="text-xl md:text-4xl font-bold">RoleTech & Consulting</p>
         </Link>
       </div>
 
