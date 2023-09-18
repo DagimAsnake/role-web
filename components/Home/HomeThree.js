@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeThree = () => {
     return (
-        <div className="flex flex-col justify-center text-center">
+        <div className="flex flex-col justify-center text-center mb-16 md:mb-32">
             <h1 className="text-3xl md:text-6xl font-bold">Want to start a new project with us? Let’s Start!</h1>
             <p className="text-lg md:text-3xl mt-6 px-4 sm:px-8 lg:px-40">
                 At our Tech & Consulting company, we create digital solutions for international corporations, small businesses
