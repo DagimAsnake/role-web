@@ -24,9 +24,7 @@ const HomeThree = () => {
 
                     </svg>
                     <h3 className="text-3xl md:text-6xl font-bold mt-4">Our Mission</h3>
-                    <p className="text-xl md:text-2xl mt-2">The mission of our company is usually to provide high-quality, innovative and
-                        cost-effective IT solutions that meet the needs and expectations of our clients and help them achieve their
-                        goals.
+                    <p className="text-xl md:text-2xl mt-2">We are dedicated to providing innovative and cost-effective cloud-based IT solutions that meet the needs and expectations of our clients. Our mission is to help businesses leverage the power of the cloud to achieve their goals and stay ahead of the competition.
                     </p>
                 </div>
                 <div className="flex flex-col items-center bg-gray-200 rounded-lg p-8 py-20 md:py-36 mt-8 hover:bg-gray-300 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
@@ -43,9 +41,7 @@ const HomeThree = () => {
 
                     </svg>
                     <h3 className="text-3xl md:text-6xl font-bold mt-4">Our Vision</h3>
-                    <p className="text-xl md:text-2xl mt-2">Our vision is to create an enduring partnership that will continuously key-in on
-                        focused improvement initiatives, and nurture a lasting culture of winning solutions and rewarding
-                        opportunities through technology solutions.
+                    <p className="text-xl md:text-2xl mt-2">We envision a future where businesses of all sizes can leverage the power of the cloud to achieve their goals and stay ahead of the competition. Our vision is to be a leading provider of innovative and cost-effective cloud-based IT solutions that help businesses succeed in the digital age.
                     </p>
                 </div>
                 <div className="flex flex-col items-center bg-gray-200 rounded-lg p-8 py-20 md:py-36 mt-8 hover:bg-gray-300 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
@@ -61,9 +57,7 @@ const HomeThree = () => {
 
                     </svg>
                     <h3 className="text-3xl md:text-6xl font-bold mt-4">Our Objective</h3>
-                    <p className="text-xl md:text-2xl mt-2">Our objective in the company is to provide Transparent pricing, Guaranteed quality on
-                        the products, Full flexibility, Competitive advantages, and On-time deliverables on the projects we made for
-                        our clients.
+                    <p className="text-xl md:text-2xl mt-2">Our objective is to provide transparent pricing, guaranteed quality on cloud-based products, full flexibility, competitive advantages, and on-time deliverables on the cloud projects we make for our clients.
                     </p>
                 </div>
             </div>
