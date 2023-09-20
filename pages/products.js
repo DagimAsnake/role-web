@@ -2,26 +2,55 @@ import React from 'react';
 
 const products = [
   {
-    title: 'Product 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Cloud Migration',
+    description: 'We help you migrate your applications and data to the cloud for improved scalability and efficiency.',
     image: '/images/bg-1.png',
   },
   {
-    title: 'Product 2',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Cloud Consulting',
+    description: 'We provide expert guidance and support for leveraging cloud technologies.',
     image: '/images/bg-1.png',
   },
   {
-    title: 'Product 3',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Infrastructure as a Service (IaaS)',
+    description: 'We offer cloud storage, cloud backup, cloud hosting, cloud computing, cloud networking, and cloud security services.',
     image: '/images/bg-1.png',
   },
   {
-    title: 'Product 4',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Platform as a Service (PaaS)',
+    description: 'We provide cloud application development, cloud database management, cloud integration, cloud testing, and cloud deployment services.',
     image: '/images/bg-1.png',
   },
-  // Add more products...
+  {
+    title: 'Software as a Service (SaaS)',
+    description: 'We offer cloud email, cloud office suites, cloud project management, cloud CRM, cloud HR management, and cloud accounting and finance services.',
+    image: '/images/bg-1.png',
+  },
+  {
+    title: 'Backup as a Service (BaaS)',
+    description: 'We provide cloud backup and recovery, cloud disaster recovery, and cloud archiving services.',
+    image: '/images/bg-1.png',
+  },
+  {
+    title: 'Security as a Service (SECaaS)',
+    description: 'We offer cloud antivirus, cloud firewall, cloud intrusion detection and prevention, cloud encryption, and cloud identity and access management services.',
+    image: '/images/bg-1.png',
+  },
+  {
+    title: 'Disaster Recovery as a Service (DRaaS)',
+    description: 'We provide cloud backup and recovery, cloud disaster recovery, and cloud replication services.',
+    image: '/images/bg-1.png',
+  },
+  {
+    title: 'Desktop as a Service (DaaS)',
+    description: 'We offer cloud virtual desktops and cloud application virtualization services.',
+    image:'/images/bg-1.png',
+  },
+  {
+    title: 'Function as a Service (FaaS)',
+    description: 'We provide cloud functions and cloud serverless computing services.',
+    image: '/images/bg-1.png',
+  },
 ];
 
 const ProductCard = ({ title, description, image }) => (
@@ -35,8 +64,8 @@ const ProductCard = ({ title, description, image }) => (
 );
 
 const Products = () => (
-  <div className="container mx-auto py-10">
-    <h1 className="text-4xl font-bold text-center mb-10">Our Products</h1>
+  <div className="container mx-auto md:py-10">
+    <h1 className="text-2xl md:text-4xl font-bold text-center mb-10">Our Cloud Services and Consulting</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {products.map((product, index) => (
         <ProductCard key={index} {...product} />

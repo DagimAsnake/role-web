@@ -2,6 +2,16 @@ import React from 'react';
 
 const services = [
   {
+    title: 'Cloud Migration',
+    description: 'We help you migrate your applications and data to the cloud for improved scalability and efficiency.',
+    icon: 'fas fa-cloud-upload-alt',
+  },
+  {
+    title: 'Cloud Consulting',
+    description: 'We provide expert guidance and support for leveraging cloud technologies.',
+    icon: 'fas fa-cloud',
+  },
+  {
     title: 'Web Development',
     description: 'We build modern and responsive websites tailored to your needs.',
     icon: 'fas fa-laptop-code',
@@ -15,11 +25,6 @@ const services = [
     title: 'UI/UX Design',
     description: 'We design intuitive and visually appealing user interfaces and experiences.',
     icon: 'fas fa-paint-brush',
-  },
-  {
-    title: 'Cloud Consulting',
-    description: 'We provide expert guidance and support for leveraging cloud technologies.',
-    icon: 'fas fa-cloud',
   },
   {
     title: 'Data Analytics',
@@ -37,6 +42,7 @@ const services = [
     icon: 'fas fa-cubes',
   },
 ];
+
 
 const ServiceCard = ({ title, description, icon }) => (
   <div className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow duration-300 flex flex-col items-center">

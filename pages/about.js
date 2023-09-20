@@ -7,19 +7,16 @@ const About = () => {
         <div className="md:w-1/2 md:pl-8">
           <h1 className="text-4xl font-bold mb-6">About</h1>
           <p className="text-lg text-gray-700 mb-6">
-            We are passionate about leveraging technology to drive innovation and transform businesses. With a team of skilled professionals and a customer-centric approach, we deliver cutting-edge solutions that empower our clients to thrive in the digital era.
+            We are a technology company that specializes in cloud services. Our team of skilled professionals is passionate about leveraging cloud technologies to drive innovation and transform businesses. We offer a wide range of cloud services that can help you improve scalability, efficiency, and security.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            Our mission is to provide exceptional technology services that solve complex challenges and unlock new opportunities for our clients. We believe in the power of collaboration and strive to build strong partnerships based on trust, transparency, and mutual growth.
+            Our mission is to provide exceptional cloud services that solve complex challenges and unlock new opportunities for our clients. We believe in the power of collaboration and strive to build strong partnerships based on trust, transparency, and mutual growth.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            With expertise in various domains and a commitment to staying ahead of the curve, we offer a wide range of services including software development, web design, cloud solutions, and digital marketing. Our goal is to deliver tailored solutions that meet the unique needs of each client and drive tangible business outcomes.
-          </p>
-          <p className="text-lg text-gray-700 mb-6">
-            We value innovation, quality, and continuous learning. Our team stays updated with the latest technologies and industry trends to ensure that we can deliver state-of-the-art solutions. We take pride in our ability to solve complex problems and provide exceptional value to our clients.
+            With expertise in various cloud domains and a commitment to staying ahead of the curve, we offer a wide range of cloud services including cloud migration, cloud consulting, infrastructure as a service (IaaS), platform as a service (PaaS), software as a service (SaaS), backup as a service (BaaS), security as a service (SECaaS), disaster recovery as a service (DRaaS), desktop as a service (DaaS), and function as a service (FaaS). Our goal is to deliver tailored cloud solutions that meet the unique needs of each client and drive tangible business outcomes.
           </p>
           <p className="text-lg text-gray-700">
-            Whether you are a startup looking to disrupt the market or an established enterprise seeking digital transformation, we are here to help you achieve your goals. Partner with us and experience the power of technology to drive your success.
+            We value innovation, quality, and continuous learning. Our team stays updated with the latest cloud technologies and industry trends to ensure that we can deliver state-of-the-art cloud solutions. We take pride in our ability to solve complex cloud problems and provide exceptional value to our clients.
           </p>
         </div>
         <div className="md:w-1/2 mb-6 flex items-center justify-center">
