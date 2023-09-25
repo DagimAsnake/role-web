@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'next/link';
 
 const HomeOne = () => {
@@ -22,13 +23,12 @@ const HomeOne = () => {
           </button>
         </Link>
       </div>
-      <div
-        className="bg-cover bg-center"
-        style={{
-          backgroundImage: 'url(/images/bg.png)',
-        }}
-      >
-        <img src="/images/man_working.png" alt="Man Working" className="w-48 md:w-128 mt-5" />
+      <div className="flex justify-center md:justify-end">
+        <img
+          src="/images/cloud.png"
+          alt="cloud"
+          className="object-cover w-full h-full"
+        />
       </div>
     </div>
   );
